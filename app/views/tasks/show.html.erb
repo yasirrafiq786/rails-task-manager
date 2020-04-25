@@ -1,3 +1,4 @@
 <h1><%= @task.title %></h1>
 <h2><%= @task.details %></h2>
+<h3><%= @task.completed ? "Done" : "Not Done" %></h3>
 <%= link_to 'Back to List', root_path %>
